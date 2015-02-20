@@ -1,7 +1,7 @@
 
-public class B extends A {
+public class C extends B {
 	void bar() {
-		System.out.println("B:bar");
+		super.bar();
 	}
 	
 	void goo() {
